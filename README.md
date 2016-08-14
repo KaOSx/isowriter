@@ -6,6 +6,7 @@ This tool is designed for creating bootable USB flash disks with by dumping the 
 The tool is distributed under the GPL v3 license which terms and conditions you can find in the file LICENSE.html, and is forked from [ROSA Image Writer](https://abf.io/soft/rosa-imagewriter)
 
 Copyright © 2016 ROSA
+
 Copyright © 2016 demm@kaosx.us
 
 Developed by: Konstantin Vlasov <konstantin.vlasov@rosalab.ru>, NTC IT ROSA LLC
@@ -30,7 +31,7 @@ Due to the special structure of KaOS installation images, you may find it imposs
 
 Go to the source directory of the project and run:
 ```
-/usr/lib/qt5/bin/qmake
+/usr/lib/qt5/bin/qmake IsoWriter.pro
 make install
 ```
 Make sure to adjust to the correct path of your Qt5 qmake.
