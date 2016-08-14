@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20.9375"
+   height="46.397427"
+   id="svg13781"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="usb_blue_tango_style.svg">
+  <defs
+     id="defs13783">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3161"
+       id="linearGradient13390"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9999999,0,0,0.9375,3.0396233,-28.149694)"
+       x1="23.334524"
+       y1="-18.569054"
+       x2="23.334524"
+       y2="-4.1229234" />
+    <linearGradient
+       id="linearGradient3161">
+      <stop
+         id="stop3163"
+         offset="0"
+         style="stop-color:#d3d7cf;stop-opacity:1;" />
+      <stop
+         id="stop3165"
+         offset="1"
+         style="stop-color:#bbc1b5;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3494">
+      <stop
+         style="stop-color:#2e3436;stop-opacity:0.82474226;"
+         offset="0"
+         id="stop3496" />
+      <stop
+         style="stop-color:#2e3436;stop-opacity:0;"
+         offset="1"
+         id="stop3498" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3506">
+      <stop
+         style="stop-color:#555753;stop-opacity:1;"
+         offset="0"
+         id="stop3508" />
+      <stop
+         style="stop-color:#555753;stop-opacity:0.22680412;"
+         offset="1"
+         id="stop3510" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13747">
+      <stop
+         style="stop-color:#2e3436;stop-opacity:0.82474226;"
+         offset="0"
+         id="stop13749" />
+      <stop
+         style="stop-color:#2e3436;stop-opacity:0;"
+         offset="1"
+         id="stop13751" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13754">
+      <stop
+         style="stop-color:#555753;stop-opacity:1;"
+         offset="0"
+         id="stop13756" />
+      <stop
+         style="stop-color:#555753;stop-opacity:0.22680412;"
+         offset="1"
+         id="stop13758" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4862"
+       id="linearGradient13403"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.000141,647.46936,253.34395)"
+       x1="19.003906"
+       y1="19.002398"
+       x2="29.019531"
+       y2="32.576614" />
+    <linearGradient
+       id="linearGradient4862"
+       inkscape:collect="always">
+      <stop
+         id="stop4864"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4866"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#fff"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-33.928247"
+     inkscape:cy="2.6967831"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2201"
+     inkscape:window-height="1054"
+     inkscape:window-x="125"
+     inkscape:window-y="199"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata13786">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-406.67409,-486.23661)">
+    <g
+       transform="translate(-254.85716,231.89286)"
+       id="g13418">
+      <g
+         id="g13364"
+         transform="translate(647.46936,253.34903)">
+        <rect
+           transform="scale(1,-1)"
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/christian/graphics/usb-icons.png"
+           ry="0.56470573"
+           rx="0.56470513"
+           y="-46.430946"
+           x="17.539623"
+           height="14.930945"
+           width="13.960377"
+           id="rect13368"
+           style="fill:url(#linearGradient13390);fill-opacity:1;stroke:#555753;stroke-width:0.9999997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/christian/graphics/usb-icons.png"
+           style="fill:#000000"
+           id="rect13372"
+           width="3.0787354"
+           height="3.1132526"
+           x="20.499622"
+           y="-43.404442"
+           transform="scale(1,-1)" />
+        <rect
+           y="-43.404442"
+           x="25.499622"
+           height="3.1132526"
+           width="3.0787354"
+           id="rect13376"
+           style="fill:#000000"
+           inkscape:export-filename="/home/christian/graphics/usb-icons.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"
+           transform="scale(1,-1)" />
+      </g>
+      <rect
+         style="display:inline;fill:#204a87;fill-opacity:1;stroke:#2e3436;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect13378"
+         width="19.954252"
+         height="35.983372"
+         x="662.02289"
+         y="254.84903"
+         rx="1.6249999"
+         ry="1.6207961" />
+      <rect
+         ry="0.62441021"
+         rx="0.62499982"
+         y="255.84903"
+         x="662.96936"
+         height="34"
+         width="18.043615"
+         id="rect13380"
+         style="display:inline;fill:none;stroke:#729fcf;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path13386"
+         d="m 670.06595,283.54012 c 0,-1.26928 0.4293,-1.59861 0.95515,-2.04177 0.42215,-0.20026 0.48961,-0.33698 0.48406,-0.98102 -0.006,-0.71173 -0.0755,-0.63043 -1.41785,-1.77552 -2.04958,-1.74834 -2.32521,-2.1699 -2.5659,-3.92428 -0.17752,-1.29389 -0.053,-1.00927 -0.56259,-1.50699 -0.93794,-0.91607 -0.77725,-2.25954 0.33931,-2.83694 1.00588,-0.52016 2.19747,0.0331 2.56493,1.19084 0.18111,0.57061 -0.25308,1.55602 -0.8361,1.89756 -0.53352,0.31255 -0.75487,-0.20854 -0.63286,0.94358 0.0675,0.63766 0.23208,1.37099 0.36567,1.62963 0.22945,0.44421 2.47619,2.53531 2.72059,2.53531 l 0,-12.35308 -1.2454,0 c 0.57609,-0.98232 1.13745,-1.98018 1.69551,-2.96841 l 1.77729,2.96841 -1.21057,0 0,8.3665 c 0.16837,0 1.81906,-1.64624 2.37451,-2.38742 0.23998,-0.32023 0.38562,-0.77493 0.38562,-1.20398 0,-0.6471 0.21716,-0.78316 -0.2851,-0.78316 l -0.5351,0 0,-3.03225 3.03224,0 0,3.03225 -0.49051,0 c -0.43766,0.0504 -0.75049,0.26957 -0.83311,0.9871 -0.12323,1.07009 -0.5896,1.7724 -2.30593,3.47246 l -1.34262,1.42276 0,5.07396 0.39676,0.23269 c 0.26978,0.12798 0.64133,0.54152 0.82567,0.91899 0.65696,1.34525 -0.25607,2.79186 -1.76209,2.79186 -1.09135,-0.0393 -1.89158,-0.59003 -1.89158,-1.66908 z"
+         style="opacity:0.95;fill:#eeeeec;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="ccssssssssscccccccssccccccsccccscc"
+         inkscape:export-filename="/home/christian/graphics/usb-icons.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+  </g>
+</svg>
