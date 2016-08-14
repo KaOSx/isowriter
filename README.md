@@ -29,7 +29,7 @@ Due to the special structure of KaOS installation images, you may find it imposs
 ## Building
 
 Go to the source directory of the project and run:
-``
+```
 /usr/lib/qt5/bin/qmake
 make install
 ```
