@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     qtTranslator.load("qt_" + langName, QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     a.installTranslator(&qtTranslator);
 
-    // For those languages that come splitted, load only the base Qt module translation
+    // For those languages that come split, load only the base Qt module translation
     QTranslator qtBaseTranslator;
     qtBaseTranslator.load("qtbase_" + langName, QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     a.installTranslator(&qtBaseTranslator);

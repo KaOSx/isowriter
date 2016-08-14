@@ -147,7 +147,7 @@ sources.path = .
 desktop.path = $$DATADIR/applications
 desktop.files += isowriter.desktop
 
-i18n.path = $$DATADIR/isowriter/translations
+i18n.path = $$DATADIR/qt5/translations
 i18n.files += lang/*.qm
 
 icon.path = $$DATADIR/icons/hicolor/scalable/apps
