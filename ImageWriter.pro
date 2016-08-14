@@ -122,7 +122,7 @@ macx {
 
 TRANSLATIONS = lang/isowriter-en.ts \
             lang/isowriter-de_DE.ts \
-            lang/isowriter-es_ES.ts \
+            lang/isowriter-es.ts \
             lang/isowriter-es_AR.ts \
             lang/isowriter-fr_FR.ts \
             lang/isowriter-nl_NL.ts \
