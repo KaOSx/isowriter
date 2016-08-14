@@ -6,5 +6,5 @@ MimeType=application/x-iso;application/x-cd-image;inode/ISO-image
 
 [Desktop Action WriteIsoImageToUsb]
 Exec=IsoWriter %F
-Name=Write ISO to USB using ImageWriter
+Name=Write ISO to USB using IsoWriter
 Icon=icon-iw

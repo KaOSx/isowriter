@@ -21,7 +21,7 @@ The application requires direct access to the physical device, so when you start
 
 ![Screenshot](res/isowriter_progress.png)
 
-You need to select the source image file and the target USB flash disk where this image will be written. Press the **Open** button, and the **Open file** dialog will be shown where you can choose the appropriate image file. (Alternatively, you can specify the path to the ISO file as command-line argument.) The target device can be selected from the corresponding drop-down list. The list should update automatically when you insert or remove some device, but if it doesn't just press the  **Refresh** button.
+You need to select the source image file and the target USB flash disk where this image will be written. Press the **Open** button, and the **Open file** dialog will be shown where you can choose the appropriate image file. Or right click the ISO file in Dolphin, select "Actions" and use the IsoWriter option. (Alternatively, you can specify the path to the ISO file as command-line argument.) The target device can be selected from the corresponding drop-down list. The list should update automatically when you insert or remove some device, but if it doesn't just press the  **Refresh** button.
 
 Now you can press the **Write** button and after additional confirmation the writing will start, displaying the progress bar and the **Cancel** button for stopping the operation if you decided to abort it. Please, remember that even if you cancel writing, the files on the target device will be lost anyway, because the partition table and file system structures are located at the very beginning of the disk, and therefore become overwritten first.
 
@@ -31,7 +31,7 @@ Due to the special structure of KaOS installation images, you may find it imposs
 
 Go to the source directory of the project and run:
 ```
-/usr/lib/qt5/bin/qmake IsoWriter.pro
+/usr/lib/qt5/bin/qmake ImageWriter.pro
 make install
 ```
 Make sure to adjust to the correct path of your Qt5 qmake.
