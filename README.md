@@ -1,7 +1,7 @@
 # isowriter
 
 ## Description
-This tool is designed for creating bootable USB flash disks with by dumping the distribution ISO image file contents to the flash disk. It might also work the same way for other Linux (or non-Linux) distributions, but there is no guarantee since the image must be prepared for such use.
+This tool is designed for creating bootable USB flash disks with by dumping the [KaOS](https://kaosx.us) distribution ISO image file contents to the flash disk. It might also work the same way for other Linux (or non-Linux) distributions, but there is no guarantee since the image must be prepared for such use.
 
 The tool is distributed under the GPL v3 license which terms and conditions you can find in the file LICENSE.html, and is forked from [ROSA Image Writer](https://abf.io/soft/rosa-imagewriter)
 
@@ -28,6 +28,7 @@ Now you can press the **Write** button and after additional confirmation the wri
 Due to the special structure of KaOS installation images, you may find it impossible to use the USB flash drive for storing data afterwards: the disk will be displayed as a very small device (like 5 MB or so). To clear you USB device and make it full-size again, press the **Clear** button. It will remove the partitioning data from the disk, and you will be able to format it to full capacity using any formatting tool you prefer.
 
 ## Building
+Depends on qt5-base only.
 
 Go to the source directory of the project and run:
 ```
