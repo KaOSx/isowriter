@@ -122,11 +122,13 @@ macx {
 
 TRANSLATIONS = lang/isowriter-en.ts \
             lang/isowriter-ca.ts \
+            lang/isowriter-cs.ts \
             lang/isowriter-de_DE.ts \
             lang/isowriter-es.ts \
             lang/isowriter-es_AR.ts \
             lang/isowriter-fr.ts \
             lang/isowriter-nl_NL.ts \
+            lang/isowriter-ro_RO.ts \
 
 # install
 isEmpty(PREFIX) {
