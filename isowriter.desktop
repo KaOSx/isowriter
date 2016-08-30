@@ -7,5 +7,4 @@ Icon=icon-iw
 Name=ISO Writer
 Comment=Tool for creating bootable installation USB flash drives
 GenericName=USB key writer 
-X-KDE-SubstituteUID=true
 Version=1.0 
