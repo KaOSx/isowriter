@@ -121,6 +121,7 @@ macx {
 }
 
 TRANSLATIONS = lang/isowriter-en.ts \
+            lang/isowriter-ast.ts \
             lang/isowriter-ca.ts \
             lang/isowriter-cs.ts \
             lang/isowriter-de.ts \
