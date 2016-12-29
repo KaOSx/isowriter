@@ -190,9 +190,9 @@ void ImageWriter::writeImage()
         emit success(
             tr("The operation completed successfully.") +
             "<br><br>" +
-            (zeroing ? tr("Now you need to format your device.") : tr("To be able to store data on this device again, please use the button \"Clear\".") +
-            "<br><br>" +
-            tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, select <b>Actions</b>, then select <b>Verify ISO Write</b>"))
+            (zeroing ? tr("Now you need to format your device.") : tr("To be able to store data on this device again, please use the button \"Clear\"."))
+            //"<br><br>" +
+            //tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, select <b>Actions</b>, then select <b>Verify ISO Write</b>"))
         );
 
     // In any case the operation is finished

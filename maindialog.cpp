@@ -7,6 +7,8 @@
 #include <QDropEvent>
 #include <QMimeData>
 #include <QLocale>
+#include <QProcess>
+#include <QCryptographicHash>
 #include <QThread>
 #include <QDir>
 #include <QStandardPaths>
@@ -249,6 +251,7 @@ void MainDialog::enumFlashDevices()
     ui->writeButton->setEnabled((ui->deviceList->count() > 0) && (m_ImageFile != ""));
     // Update the Clear button enabled/disabled state
     ui->clearButton->setEnabled(ui->deviceList->count() > 0);
+    ui->verifyButton->setEnabled((ui->deviceList->count() > 0) && (m_ImageFile != ""));
 }
 
 // Starts writing data to the device
@@ -327,6 +330,18 @@ void MainDialog::clearDevice()
     writeToDevice(true);
 }
 
+// Verify the selected USB device
+void MainDialog::verifyDevice()
+{
+    QMessageBox::information(
+            this,
+            ApplicationTitle,
+            tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, ") + "<br>" +
+            tr("select <b>Actions</b>, then select <b>Verify ISO Write</b>"),
+            QMessageBox::Ok);
+    //QProcess::startDetached("/usr/bin/checkiso");
+}
+
 // Updates GUI to the "writing" mode (progress bar shown, controls disabled)
 // Also sets the progress bar limits
 void MainDialog::showWritingProgress(int maxValue)
@@ -353,6 +368,7 @@ void MainDialog::showWritingProgress(int maxValue)
     ui->writeButton->setVisible(false);
     ui->clearButton->setVisible(false);
     ui->cancelButton->setVisible(true);
+    ui->verifyButton->setVisible(false);
 
     // Expose the progress bar state to the OS
     m_ExtProgressBar.InitProgressBar(maxValue);
@@ -380,6 +396,7 @@ void MainDialog::hideWritingProgress()
     ui->writeButton->setVisible(true);
     ui->clearButton->setVisible(true);
     ui->cancelButton->setVisible(false);
+    ui->verifyButton->setVisible(true);
 
     // Send a signal that progressbar is no longer present
     m_ExtProgressBar.DestroyProgressBar();

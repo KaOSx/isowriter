@@ -67,6 +67,8 @@ public slots:
     void writeImageToDevice();
     // Clears the selected USB device
     void clearDevice();
+    // Verifies the selected USB device
+    void verifyDevice();
 
     // Updates GUI to the "writing" mode (progress bar shown, controls disabled)
     // Also sets the progress bar limits

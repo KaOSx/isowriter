@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>548</width>
-    <height>153</height>
+    <width>546</width>
+    <height>151</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -270,8 +270,30 @@
          <bold>true</bold>
         </font>
        </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
        <property name="text">
         <string>&amp;Cancel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="verifyButton">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>&amp;Verify</string>
        </property>
       </widget>
      </item>
@@ -353,11 +375,28 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>verifyButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainDialog</receiver>
+   <slot>verifyDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>openImageFile()</slot>
   <slot>writeImageToDevice()</slot>
   <slot>scheduleEnumFlashDevices()</slot>
   <slot>clearDevice()</slot>
+  <slot>verifyDevice()</slot>
  </slots>
 </ui>
