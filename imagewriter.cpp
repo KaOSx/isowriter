@@ -192,7 +192,7 @@ void ImageWriter::writeImage()
             "<br><br>" +
             (zeroing ? tr("Now you need to format your device.") : tr("To be able to store data on this device again, please use the button \"Clear\".") +
             "<br><br>" +
-            tr("To check integrity of the USB, in the ISO directory run: <b>cmp -n `stat -c '%s' ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX</b>, replace ISO_name.xx.xx with the correct name & version and sdX with used USB port"))
+            tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, select <b>Actions</b>, then select <b>Verify ISO Write</b>"))
         );
 
     // In any case the operation is finished
