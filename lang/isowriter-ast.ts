@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ast" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ast">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -65,13 +67,21 @@ Albortando.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation>Pa poder volver a atroxar datos nesti preséu, usa&apos;l botón «Llimpiar».</translation>
+        <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
+        <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
+        <translation type="vanished">Pa poder volver a atroxar datos nesti preséu, usa&apos;l botón «Llimpiar».</translation>
+    </message>
+    <message>
         <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation>Pa comprobar la integridá del USB, na ISO executa: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_nome.xx.xx.iso` ISO_nome.xx.xx.iso /dev/sdX&lt;/b&gt;,, troca ISO_nome.xx.xx pol nome correutu y versión, y sdX pol puertu USB usáu</translation>
+        <translation type="vanished">Pa comprobar la integridá del USB, na ISO executa: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_nome.xx.xx.iso` ISO_nome.xx.xx.iso /dev/sdX&lt;/b&gt;,, troca ISO_nome.xx.xx pol nome correutu y versión, y sdX pol puertu USB usáu</translation>
     </message>
 </context>
 <context>
@@ -117,71 +127,76 @@ Albortando.</translation>
         <translation>&amp;Escribir</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="274"/>
+        <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Encaboxar</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="84"/>
+        <location filename="../maindialog.ui" line="296"/>
+        <source>&amp;Verify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
         <translation>Fallu al abrir el ficheru d&apos;imaxe:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="93"/>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="110"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="172"/>
-        <location filename="../maindialog.cpp" line="183"/>
+        <location filename="../maindialog.cpp" line="189"/>
+        <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
         <translation>La escritura ta en cursu, ¿albortala?</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
         <translation>Imáxenes de discu</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
         <translation>Tolos ficheros</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="266"/>
+        <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
         <translation>¡La imaxe ye más llarga que&apos;l ficheru qu&apos;esbillesti!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
+        <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
         <translation>Tamañu d&apos;imaxe:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>b</source>
         <translation>b</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
         <translation>Tamañu de discu:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
         <translation>¡Alvertencia!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
         <translation>¡Perderánse tolos datos esistentes nel preséu esbilláu!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="277"/>
+        <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
         <translation>¿De xuru que desees siguir?</translation>
     </message>

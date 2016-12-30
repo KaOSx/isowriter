@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es_AR" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es_AR">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -65,13 +67,21 @@ Abortato.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation>Para que nuevamente puedan guardarse datos en este dispositivo, por favor use el botón &quot;Clear&quot;.</translation>
+        <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
+        <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
+        <translation type="vanished">Para que nuevamente puedan guardarse datos en este dispositivo, por favor use el botón &quot;Clear&quot;.</translation>
+    </message>
+    <message>
         <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation>Para comprobar la integridad del USB, ejecute los siguiente en el directorio donde reside la ISO: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, reemplace ISO_name.xx.xx con el nombre y versión correctoo y sdX con el puerto USB usado.</translation>
+        <translation type="vanished">Para comprobar la integridad del USB, ejecute los siguiente en el directorio donde reside la ISO: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, reemplace ISO_name.xx.xx con el nombre y versión correctoo y sdX con el puerto USB usado.</translation>
     </message>
 </context>
 <context>
@@ -117,71 +127,76 @@ Abortato.</translation>
         <translation>&amp;Grabar</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="274"/>
+        <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="84"/>
+        <location filename="../maindialog.ui" line="296"/>
+        <source>&amp;Verify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
         <translation>No se pudo abrir el archivo de imagen:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="93"/>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="110"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="172"/>
-        <location filename="../maindialog.cpp" line="183"/>
+        <location filename="../maindialog.cpp" line="189"/>
+        <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
         <translation>La grabación está en proceso, ¿abortarla?</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
         <translation>Imágenes de Disco</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
         <translation>Todos los archivos</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="266"/>
+        <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
         <translation>¡La imagen es más grande que el dispositivo seleccionado!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
+        <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
         <translation>Archivo de imagen:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>b</source>
         <translation>b</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
         <translation>Tamaño del Disco:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
         <translation>¡Advertencia!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
         <translation>¡Se perderán todos los datos existentes en el dispositivo seleccionado!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="277"/>
+        <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
         <translation>¿Está seguro que desea proceder?</translation>
     </message>

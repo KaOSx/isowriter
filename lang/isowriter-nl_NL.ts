@@ -67,13 +67,21 @@ Afbreken.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation>Om gegevens opnieuw op te kunnen slaan op dit apparaat, gaarne the &quot;Wissen&quot; knop gebruiken.</translation>
+        <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
+        <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
+        <translation type="vanished">Om gegevens opnieuw op te kunnen slaan op dit apparaat, gaarne the &quot;Wissen&quot; knop gebruiken.</translation>
+    </message>
+    <message>
         <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation>Om de integriteit van de USB te controleren, in het ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, vervang ISO_name.xx.xx met de juiste naam &amp; versie en sdX met de gebruikte USB-poort</translation>
+        <translation type="vanished">Om de integriteit van de USB te controleren, in het ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, vervang ISO_name.xx.xx met de juiste naam &amp; versie en sdX met de gebruikte USB-poort</translation>
     </message>
 </context>
 <context>
@@ -119,71 +127,76 @@ Afbreken.</translation>
         <translation>&amp;Write</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="274"/>
+        <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Annuleren</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="84"/>
+        <location filename="../maindialog.ui" line="296"/>
+        <source>&amp;Verify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
         <translation>Kan het image-bestand niet openen:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="93"/>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="110"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="172"/>
-        <location filename="../maindialog.cpp" line="183"/>
+        <location filename="../maindialog.cpp" line="189"/>
+        <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
         <translation>Het schrijven is aan de gang, nu afbreken?</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
         <translation>Disk Images</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
         <translation>Alle Bestanden</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="266"/>
+        <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
         <translation>De image is groter dan het gekozen apparaat!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
+        <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
         <translation>Image grootte:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>b</source>
         <translation>b</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
         <translation>Schijfgrootte:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
         <translation>Waarschuwing!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
         <translation>Alle bestaande gegevens op het geselecteerde apparaat zullen verloren gaan!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="277"/>
+        <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
         <translation>Weet je zeker dat je wil doorgaan?</translation>
     </message>

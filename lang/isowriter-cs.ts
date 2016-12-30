@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="cs">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -65,13 +67,21 @@ Ukončuji.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation>Aby bylo opět možné zapisovat data na toto zařízení, použijte prosím tlačítko &quot;Smazat&quot;.</translation>
+        <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
+        <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
+        <translation type="vanished">Aby bylo opět možné zapisovat data na toto zařízení, použijte prosím tlačítko &quot;Smazat&quot;.</translation>
+    </message>
+    <message>
         <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation>Aby byla ověřena integrity USB, spusťte příkaz: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_jmeno.xx.xx.iso` ISO_jmeno.xx.xx.iso /dev/sdX&lt;/b&gt; v adresáři s ISO souborem. V příkazu nahraďte ISO_jmeno.xx.xx.iso správným jménem a verzí a sdX nahraďte používaným USB portem</translation>
+        <translation type="vanished">Aby byla ověřena integrity USB, spusťte příkaz: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_jmeno.xx.xx.iso` ISO_jmeno.xx.xx.iso /dev/sdX&lt;/b&gt; v adresáři s ISO souborem. V příkazu nahraďte ISO_jmeno.xx.xx.iso správným jménem a verzí a sdX nahraďte používaným USB portem</translation>
     </message>
 </context>
 <context>
@@ -117,71 +127,76 @@ Ukončuji.</translation>
         <translation>&amp;Zapsat</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="274"/>
+        <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
         <translation>Zruši&amp;t</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="84"/>
+        <location filename="../maindialog.ui" line="296"/>
+        <source>&amp;Verify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
         <translation>Nepodařilo se otevřít soubor s obrazem:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="93"/>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="110"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="172"/>
-        <location filename="../maindialog.cpp" line="183"/>
+        <location filename="../maindialog.cpp" line="189"/>
+        <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
         <translation>Zápis probíhá, přerušit?</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
         <translation>Obrazy disků</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="192"/>
+        <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
         <translation>Všechny soubory</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="266"/>
+        <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
         <translation>Obraz je větší než vámi vybrané zařízení!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
+        <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
         <translation>Velikost obrazu:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="267"/>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="285"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>b</source>
         <translation>b</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="268"/>
+        <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
         <translation>Velikost disku:</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
         <translation>Varování!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="276"/>
+        <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
         <translation>Všechna existující data na vybraném zařízení budou ztracena!</translation>
     </message>
     <message>
-        <location filename="../maindialog.cpp" line="277"/>
+        <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
         <translation>Opravdu chcete pokračovat?</translation>
     </message>
