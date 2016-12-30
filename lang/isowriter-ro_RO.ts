@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ro_RO">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro_RO" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -68,20 +66,12 @@ Se anulează operațiunea.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation type="vanished">Pentru a stoca date din nou pe acest dispozitiv, utilizați butonul „Curăță”.</translation>
-    </message>
-    <message>
-        <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation type="vanished">Pentru a verifica integritatea USB-ului, în directorul ISO rulați: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, considerați numele ISO_name.xx.xx cu numele corect și versiunea sdX a portului USB</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -134,7 +124,7 @@ Se anulează operațiunea.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>

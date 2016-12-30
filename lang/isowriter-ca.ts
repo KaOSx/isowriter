@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -68,20 +66,12 @@ S&apos;avorta.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation type="vanished">Per poder tornar a desar dades en aquest dispositiu; si us plau, useu el botó &quot;Neteja&quot;.</translation>
-    </message>
-    <message>
-        <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation type="vanished">Per comprovar la integritat de l&apos;USB, al directori de la ISO executeu: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; nom_ISO.xx.xx.iso` nom_ISO.xx.xx.iso /dev/sdX&lt;/b&gt;, reemplaceu nom_ISO.xx.xx amb el nom i la versió correctes i sdX amb el port USB que s&apos;usi.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -134,7 +124,7 @@ S&apos;avorta.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl_NL">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl_NL" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -68,20 +66,12 @@ Afbreken.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om gegevens opnieuw op te kunnen slaan op dit apparaat, gaarne the &lt;b&gt;Wissen&lt;/b&gt; knop gebruiken.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>To be able to store data on this device again, please use the button &quot;Clear&quot;.</source>
-        <translation type="vanished">Om gegevens opnieuw op te kunnen slaan op dit apparaat, gaarne the &quot;Wissen&quot; knop gebruiken.</translation>
-    </message>
-    <message>
-        <source>To check integrity of the USB, in the ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, replace ISO_name.xx.xx with the correct name &amp; version and sdX with used USB port</source>
-        <translation type="vanished">Om de integriteit van de USB te controleren, in het ISO directory run: &lt;b&gt;cmp -n `stat -c &apos;%s&apos; ISO_name.xx.xx.iso` ISO_name.xx.xx.iso /dev/sdX&lt;/b&gt;, vervang ISO_name.xx.xx met de juiste naam &amp; versie en sdX met de gebruikte USB-poort</translation>
+        <translation>Om de integriteit van de USB te controleren gebruik de &lt;b&gt;Verifiëren&lt;/b&gt; knop.</translation>
     </message>
 </context>
 <context>
@@ -134,7 +124,7 @@ Afbreken.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verifiëren</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
