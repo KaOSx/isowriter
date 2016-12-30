@@ -27,8 +27,10 @@ Now you can press the **Write** button and after additional confirmation the wri
 
 Due to the special structure of KaOS installation images, you may find it impossible to use the USB flash drive for storing data afterwards: the disk will be displayed as a very small device (like 5 MB or so). To clear you USB device and make it full-size again, press the **Clear** button. It will remove the partitioning data from the disk, and you will be able to format it to full capacity using any formatting tool you prefer.
 
+To verify the integrity of the written USB flash drive, select the **Verify** button. This will compare hash of the exact bytes from the downloaded ISO file with the image on the USB flash drive.  KDialog is used as GUI for this function.
+
 ## Building
-Depends on qt5-base only.
+Depends on qt5-base. To use the Verify option, KDialog is needed.
 
 Go to the source directory of the project and run:
 ```
