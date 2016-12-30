@@ -11,6 +11,9 @@
 #include <QCryptographicHash>
 #include <QThread>
 #include <QDir>
+#include <QDebug>
+#include <QTextStream>
+#include <QFile>
 #include <QStandardPaths>
 #include <QRegularExpression>
 
@@ -92,6 +95,18 @@ void MainDialog::preprocessImageFile(const QString& newImageFile)
     m_ImageSize = f.size();
     f.close();
     m_ImageFile = newImageFile;
+    
+    // set ISO file name and path in a text file for checkisowriter bash script use
+    QString outputFilename = "/tmp/iso.txt";
+    QFile outputFile(outputFilename);
+    
+    outputFile.open(QIODevice::WriteOnly);
+    QTextStream outStream(&outputFile);
+    outStream << (m_ImageFile);
+ 
+    outputFile.close();
+    // end creating text file
+    
     ui->imageEdit->setText(QDir::toNativeSeparators(m_ImageFile) + " (" + QString::number(alignNumberDiv(m_ImageSize, DEFAULT_UNIT)) + " " + tr("MB") + ")");
     // Enable the Write button (if there are USB flash disks present)
     ui->writeButton->setEnabled(ui->deviceList->count() > 0);
@@ -333,13 +348,13 @@ void MainDialog::clearDevice()
 // Verify the selected USB device
 void MainDialog::verifyDevice()
 {
-    QMessageBox::information(
-            this,
-            ApplicationTitle,
-            tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, ") + "<br>" +
-            tr("select <b>Actions</b>, then select <b>Verify ISO Write</b>"),
-            QMessageBox::Ok);
-    //QProcess::startDetached("/usr/bin/checkiso");
+    //QMessageBox::information(
+    //        this,
+    //        ApplicationTitle,
+    //        tr("To check the integrity of the USB, right click the downloaded ISO in Dolphin, ") + "<br>" +
+    //        tr("select <b>Actions</b>, then select <b>Verify ISO Write</b>"),
+    //        QMessageBox::Ok);
+    QProcess::startDetached("/usr/bin/checkisowriter");
 }
 
 // Updates GUI to the "writing" mode (progress bar shown, controls disabled)

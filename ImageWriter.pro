@@ -148,7 +148,7 @@ isEmpty(DATADIR) {
 }
 
 target.path = $$BINDIR
-sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS *.pro
+sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS *.pro checkisowriter
 sources.path = .
 
 desktop.path = $$DATADIR/applications
