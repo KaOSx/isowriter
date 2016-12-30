@@ -66,12 +66,12 @@ Abortato.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Para hacer que sea posible guardar datos nuevamente en este dispositivo, por favor use el botón &lt;b&gt;Limpiar&lt;/&gt;.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Para comprobar la integridad del USB use el botón &lt;b&gt;Verificar&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
@@ -124,7 +124,7 @@ Abortato.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Verificar</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>

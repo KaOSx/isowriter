@@ -1,10 +1,12 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>ImageWriter</name>
     <message>
         <location filename="../imagewriter.cpp" line="39"/>
         <source>Failed to allocate memory for buffer:</source>
-        <translation>Fehler beim Zuweisen von Speicher für Puffer:</translation>
+        <translation>Fehler beim Zuweisen von Speicher für den Puffer:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="43"/>
@@ -66,12 +68,12 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Um diesen Stick wieder für Datenspeicherungen zu verwenden, einfach auf  &lt;b&gt;Löschen&lt;/b&gt;  klicken. </translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Um sicherzustellen, dass ihr USB Stick in Ordnung ist, einfach auf &lt;b&gt;verifizieren&lt;/b&gt; klicken.</translation>
     </message>
 </context>
 <context>
@@ -124,7 +126,7 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"/>
+        <translation>&amp;verifizieren</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>

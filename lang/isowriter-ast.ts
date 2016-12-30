@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ast" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ast">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -66,12 +68,12 @@ Albortando.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -124,7 +126,7 @@ Albortando.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
