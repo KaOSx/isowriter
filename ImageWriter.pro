@@ -148,7 +148,7 @@ isEmpty(DATADIR) {
 }
 
 target.path = $$BINDIR
-sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS *.pro checkisowriter
+sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS *.pro
 sources.path = .
 
 desktop.path = $$DATADIR/applications
@@ -166,4 +166,7 @@ license.files += doc/LICENSE.html
 service.path = $$DATADIR/kservices5/ServiceMenus
 service.files += iw_write_iso.desktop
 
-INSTALLS += target desktop i18n icon license service
+script.path = $$PREFIX/bin
+script.files += checkisowriter
+
+INSTALLS += target desktop i18n icon license script service
