@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
         <location filename="../imagewriter.cpp" line="39"/>
         <source>Failed to allocate memory for buffer:</source>
-        <translation>Nepodařilo se alokovat paměť pro buffer:</translation>
+        <translation>Nepodařilo se přidělit paměť pro vyrovnávací paměť:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="43"/>
         <source>Failed to allocate memory for buffer.</source>
-        <translation>Nepodařilo se alokovat paměť pro buffer.</translation>
+        <translation>Nepodařilo se přidělit paměť pro vyrovnávací paměť.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="57"/>
@@ -47,7 +45,7 @@
         <location filename="../imagewriter.cpp" line="137"/>
         <source>The last block was not fully written (%1 of %2 bytes)!
 Aborting.</source>
-        <translation>Poslední blok nezbyl zcela zapsán (%1 z %2 bytů)!
+        <translation>Poslední blok nebyl zcela zapsán (%1 z %2 bytů)!
 Ukončuji.</translation>
     </message>
     <message>
@@ -68,12 +66,12 @@ Ukončuji.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -81,7 +79,7 @@ Ukončuji.</translation>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>&amp;USB Device:</source>
-        <translation>Zařízen í&amp;USB:</translation>
+        <translation>Zařízení &amp;USB:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="124"/>
@@ -91,7 +89,7 @@ Ukončuji.</translation>
     <message>
         <location filename="../maindialog.ui" line="141"/>
         <source>Open image file</source>
-        <translation>Otevřít soubor obrazu</translation>
+        <translation>Otevřít soubor s obrazem</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="155"/>
@@ -126,7 +124,7 @@ Ukončuji.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ověřit</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
@@ -185,7 +183,7 @@ Ukončuji.</translation>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
-        <translation>Všechna existující data na vybraném zařízení budou ztracena!</translation>
+        <translation>Všechna stávající data na vybraném zařízení budou ztracena!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="295"/>
@@ -223,17 +221,17 @@ Ukončuji.</translation>
         <location filename="../platform_lin.cpp" line="151"/>
         <location filename="../platform_lin.cpp" line="183"/>
         <source>Please, restart the program with root privileges.</source>
-        <translation>Prosím, znovu spusťte program s oprávněním roota.</translation>
+        <translation>Prosím, znovu spusťte program s oprávněním správce (root).</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Failed to restart with root privileges! (Error code: %1)</source>
-        <translation>Nepodařil se restart s oprávněním roota! (Kód chyby: %1)</translation>
+        <translation>Nepodařilo se restartovat s oprávněním správce (root)! (Kód chyby: %1)</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="41"/>
         <source>Memory allocation for %1 failed.</source>
-        <translation>Alokování paměti pro %1 selhalo.</translation>
+        <translation>Přidělení paměti pro %1 selhalo.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="89"/>

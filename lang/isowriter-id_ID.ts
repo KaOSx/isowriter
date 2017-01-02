@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="id_ID">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id_ID" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -47,7 +45,7 @@
         <location filename="../imagewriter.cpp" line="137"/>
         <source>The last block was not fully written (%1 of %2 bytes)!
 Aborting.</source>
-        <translation>Blok terakhir telah tidak tertulis secra penuh (%1 dari %2 bytes)!
+        <translation>Blok terakhir tidak tertulis secra penuh (%1 dari %2 bytes)!
 Gugur.</translation>
     </message>
     <message>
@@ -68,12 +66,12 @@ Gugur.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Untuk dapat menyimpan data pada perangkat ini lagi, silakan gunakan tombol &lt;b&gt;Clear&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Untuk memeriksa integritas pada USB gunakan tombol &lt;b&gt;Verifikasi&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
@@ -126,7 +124,7 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verifikasi</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>

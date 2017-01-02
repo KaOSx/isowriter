@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
@@ -68,12 +66,12 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation>Um diesen Stick wieder für Datenspeicherungen zu verwenden, einfach auf  &lt;b&gt;Löschen&lt;/b&gt;  klicken. </translation>
+        <translation>Bitte verwenden Sie die Schaltfläche &lt;b&gt;Löschen&lt;/b&gt;, um auf diesem Gerät wieder Daten speichern zu können.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation>Um sicherzustellen, dass ihr USB Stick in Ordnung ist, einfach auf &lt;b&gt;verifizieren&lt;/b&gt; klicken.</translation>
+        <translation>Verwenden Sie die Schaltfläche &lt;b&gt;Überprüfen&lt;/ b&gt;, um die Integrität des USB-Sticks zu überprüfen.</translation>
     </message>
 </context>
 <context>
@@ -126,7 +124,7 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation>&amp;verifizieren</translation>
+        <translation>&amp;Überprüfen</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
