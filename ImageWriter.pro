@@ -147,16 +147,6 @@ isEmpty(DATADIR) {
   DATADIR = $$PREFIX/share
 }
 
-install_mo_commands =
-for(mo_file, MO_FILES) {
-  mo_name = $$replace(mo_file,.mo,)
-  mo_targetpath = $$DATADIR/locale/$${mo_name}/LC_MESSAGES
-  mo_target = $${mo_targetpath}/isowriter.mo
-  !isEmpty(install_mo_commands): install_mo_commands += &&
-  install_mo_commands += test -d $$mo_targetpath || mkdir -p $$mo_targetpath
-  install_mo_commands += && cp $$mo_file $$mo_target
-}
-
 target.path = $$BINDIR
 sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS *.pro
 sources.path = .
@@ -179,10 +169,4 @@ service.files += iw_write_iso.desktop
 script.path = $$PREFIX/bin
 script.files += checkisowriter
 
-po.path = $${mo_targetpath}
-po.files = isowriter.mo
-
-INSTALLS += target desktop i18n icon license po script service
-
-install.commands = $$install_mo_commands
-QMAKE_EXTRA_TARGETS += install
+INSTALLS += target desktop i18n icon license script service
