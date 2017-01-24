@@ -179,7 +179,10 @@ service.files += iw_write_iso.desktop
 script.path = $$PREFIX/bin
 script.files += checkisowriter
 
-INSTALLS += target desktop i18n icon license script service
+po.path = $${mo_targetpath}
+po.files = isowriter.mo
+
+INSTALLS += target desktop i18n icon license po script service
 
 install.commands = $$install_mo_commands
 QMAKE_EXTRA_TARGETS += install
