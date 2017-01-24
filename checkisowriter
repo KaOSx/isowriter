@@ -21,7 +21,7 @@
 alias GETTEXT='gettext "checkisowriter"'
 # po files commands:
 # xgettext -o lang/checkisowriter.pot  -L Shell --keyword --keyword=GETTEXT  checkisowriter
-# msgfmt -v  checkisowriter-nl_NL.po -o checkisowriter-nl_NL.mo
+# msgfmt -v  checkisowriter-nl_NL.po -o nl_NL.mo
 
 kdialog --msgbox (GETTEXT "Verifying the integrity of the USB in comparison to<br> the downloaded ISO, this can take a few minutes")
 
