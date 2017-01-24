@@ -18,7 +18,12 @@
 #    along with IsoWriter. If not, see <http://www.gnu.org/licenses/>.
 # 
 
-kdialog --msgbox "Verifying the integrity of the USB in comparison to<br> the downloaded ISO, this can take a few minutes"
+alias GETTEXT='gettext "checkisowriter"'
+# po files commands:
+# xgettext -o lang/checkisowriter.pot  -L Shell --keyword --keyword=GETTEXT  checkisowriter
+# msgfmt -v  checkisowriter-nl_NL.po -o checkisowriter-nl_NL.mo
+
+kdialog --msgbox (GETTEXT "Verifying the integrity of the USB in comparison to<br> the downloaded ISO, this can take a few minutes")
 
 CheckedFile=$(cat /tmp/iso.txt)
 echo ${CheckedFile}
@@ -26,7 +31,7 @@ UsbDevice=$(blkid | grep iso9660 | head -c 8)
 
 if [ ! ${UsbDevice} ]; then
 
-    kdialog --msgbox "No Flash USB detected."
+    kdialog --msgbox (GETTEXT "No Flash USB detected.")
     
 else
 
@@ -36,14 +41,14 @@ else
     
     if [ ${md5} == ${usb} ]; then
     
-        kdialog --msgbox "The downloaded ISO file and USB write match.<br><br>
-        md5sum for both is:<br><b>${md5}</b><br><br>Make sure to verify against the md5sum of the source where you downloaded the ISO from."
+        kdialog --msgbox (GETTEXT "The downloaded ISO file and USB write match.<br><br>
+        md5sum for both is:<br><b>${md5}</b><br><br>Make sure to verify against the md5sum of the source where you downloaded the ISO from."0
         
     fi
 
     if [ ${md5} != ${usb} ]; then
     
-        kdialog --error "ISO files do not match, do not use this USB for install media. <br><br> Or make sure only one USB flash device is connected and run Verify again."
+        kdialog --error (GETTEXT "ISO files do not match, do not use this USB for install media. <br><br> Or make sure only one USB flash device is connected and run Verify again.")
         
     fi
     

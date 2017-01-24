@@ -66,12 +66,12 @@ Ukončuji.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Aby bylo možné opět ukládat data na toto zařízení, použijte prosím tlačítko &lt;b&gt;smazat&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Pro ověření integrity USB použijte tlačítko &lt;b&gt;ověřit&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>

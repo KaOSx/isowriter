@@ -51,7 +51,7 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="169"/>
         <source>Failed to read the image file:</source>
-        <translation>Fehler beim Lesen der Abbilddatei:</translation>
+        <translation>Fehler beim Lesen der ISO:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="191"/>
@@ -71,7 +71,7 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation>Verwenden Sie die Schaltfläche &lt;b&gt;Überprüfen&lt;/ b&gt;, um die Integrität des USB-Sticks zu überprüfen.</translation>
+        <translation>Verwenden Sie die Schaltfläche &lt;b&gt;Überprüfen&lt;/b&gt;, um die Integrität des USB-Sticks zu überprüfen.</translation>
     </message>
 </context>
 <context>
@@ -84,12 +84,12 @@ Wird abgebrochen.</translation>
     <message>
         <location filename="../maindialog.ui" line="124"/>
         <source>Image:</source>
-        <translation>Abbild</translation>
+        <translation>ISO</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="141"/>
         <source>Open image file</source>
-        <translation>Abbilddatei öffnen</translation>
+        <translation>ISO öffnen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="155"/>
