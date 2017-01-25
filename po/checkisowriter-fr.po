@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-24 03:31-0500\n"
+"POT-Creation-Date: 2017-01-25 12:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Cellix <cellix@yandex.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/kaos/teams/2071/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: checkisowriter:23
+#: checkisowriter:33
 msgid ""
 "Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
 "this can take a few minutes"
@@ -26,11 +26,11 @@ msgstr ""
 "Vérification de l’intégrité de la clé USB en comparaison<br> avec l’ISO "
 "téléchargée. Cela peut prendre quelques minutes…"
 
-#: checkisowriter:31
+#: checkisowriter:41
 msgid "No Flash USB detected."
 msgstr "Aucune clé USB détectée"
 
-#: checkisowriter:48
+#: checkisowriter:58
 msgid ""
 "ISO files do not match, do not use this USB for install media. <br><br> Or "
 "make sure only one USB flash device is connected and run Verify again."

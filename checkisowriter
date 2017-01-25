@@ -20,10 +20,10 @@
 # alias GETTEXT='gettext "checkisowriter"'
 # GETTEXT='gettext "checkisowriter"'
 # po files commands:
-# xgettext -o po/checkisowriter.pot  -L Shell --keyword --keyword=GETTEXT  checkisowriter
+# xgettext -o po/checkisowriter.pot -L Shell checkisowriter
 # msgfmt -v  checkisowriter-nl_NL.po -o nl_NL.mo
 
-. gettext.sh 
+. gettext.sh
 
 TEXTDOMAIN=checkisowriter
 export TEXTDOMAIN
@@ -39,26 +39,25 @@ UsbDevice=$(blkid | grep iso9660 | head -c 8)
 if [ ! ${UsbDevice} ]; then
 
     kdialog --msgbox "$(gettext "No Flash USB detected.")"
-    
+
 else
 
     md5=$(md5sum ${CheckedFile} | head -c 32)
     bites=$(wc -c ${CheckedFile} | awk '{print $1;}')
     usb=$(head -c ${bites} ${UsbDevice} | md5sum | head -c 32)
-    
+
     if [ ${md5} == ${usb} ]; then
-    
+
         kdialog --msgbox "$(gettext "The downloaded ISO file and USB write match.<br><br>
         md5sum for both is:<br><b>${md5}</b><br><br>Make sure to verify against the md5sum of the source where you downloaded the ISO from.")"
-        
+
     fi
 
     if [ ${md5} != ${usb} ]; then
-    
-        kdialog --error "$(gettext "ISO files do not match, do not use this USB for install media. <br><br> Or make sure only one USB flash device is connected and run Verify again.")"
-        
-    fi
-    
-fi
 
+        kdialog --error "$(gettext "ISO files do not match, do not use this USB for install media. <br><br> Or make sure only one USB flash device is connected and run Verify again.")"
+
+    fi
+
+fi
 
