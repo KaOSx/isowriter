@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 12:19-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alexandre Miguel <alexmigf@gmail.com>, 2017\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/kaos/teams/2071/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: checkisowriter:33
+msgid ""
+"Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
+"this can take a few minutes"
+msgstr ""
+"Verificando a integridade do dispositivo USB em comparação<br> com o ISO "
+"descarregado, isto pode demorar uns minutos"
+
+#: checkisowriter:41
+msgid "No Flash USB detected."
+msgstr "Não foi detetado o dispositivo USB."
+
+#: checkisowriter:58
+msgid ""
+"ISO files do not match, do not use this USB for install media. <br><br> Or "
+"make sure only one USB flash device is connected and run Verify again."
+msgstr ""
+"Os ficheiros ISO não correspondem, não utilize este dispositivo USB para "
+"instalar media. <br><br> Ou verifique que apenas um dispositivo USB se "
+"encontra ligado e corra novamente."

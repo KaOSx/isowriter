@@ -134,6 +134,7 @@ TRANSLATIONS = lang/isowriter-en.ts \
             lang/isowriter-pt_PT.ts \
             lang/isowriter-ro_RO.ts \
             lang/isowriter-ru.ts \
+            lang/isowriter-tr_TR.ts \
 
 # install
 isEmpty(PREFIX) {

@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 12:19-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Muha Aliss <muhaaliss@gmail.com>, 2017\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/kaos/teams/2071/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: checkisowriter:33
+msgid ""
+"Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
+"this can take a few minutes"
+msgstr ""
+
+#: checkisowriter:41
+msgid "No Flash USB detected."
+msgstr "USB Bellek tespit edilmedi."
+
+#: checkisowriter:58
+msgid ""
+"ISO files do not match, do not use this USB for install media. <br><br> Or "
+"make sure only one USB flash device is connected and run Verify again."
+msgstr ""
