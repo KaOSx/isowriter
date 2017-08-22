@@ -1,77 +1,77 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id_ID" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
         <location filename="../imagewriter.cpp" line="39"/>
         <source>Failed to allocate memory for buffer:</source>
-        <translation>Gagal mengalokasikan memori untuk buffer:</translation>
+        <translation>Falha ao alocar memória para o buffer:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="43"/>
         <source>Failed to allocate memory for buffer.</source>
-        <translation>Gagal mengalokasikan memori untuk buffer.</translation>
+        <translation>Falha ao alocar memória para o buffer.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="57"/>
         <source>Failed to open the image file:</source>
-        <translation>Gagal membuka file citra:</translation>
+        <translation>Falha ao abrir o arquivo de imagem:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="80"/>
         <source>Failed to open the drive</source>
-        <translation>Gagal membuka drive</translation>
+        <translation>Falha ao abrir o disco</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="87"/>
         <source>Failed to unmount the drive</source>
-        <translation>Gagal melepas kait drive</translation>
+        <translation>Falha ao desmontar o disco</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="104"/>
         <source>Failed to unmount the volume</source>
-        <translation>Gagal melepas kait volume</translation>
+        <translation>Falha ao desmontar o volume</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="115"/>
         <source>Failed to open the target device:</source>
-        <translation>Gagal membuka perangkat target:</translation>
+        <translation>Falha ao abrir o dispositivo alvo:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="135"/>
         <source>Failed to write to the device:</source>
-        <translation>Gagal menulis ke perangkat:</translation>
+        <translation>Falha ao gravar no dispositivo:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="137"/>
         <source>The last block was not fully written (%1 of %2 bytes)!
 Aborting.</source>
-        <translation>Blok terakhir tidak tertulis secara penuh (%1 dari %2 bytes)!
-Gugur.</translation>
+        <translation>O ultimo bloco não foi completamente escrito (%1 de %2 bytes)!
+Abortando.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="169"/>
         <source>Failed to read the image file:</source>
-        <translation>Gagal membaca file citra:</translation>
+        <translation>Falha ao ler o arquivo de imagem:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="191"/>
         <source>The operation completed successfully.</source>
-        <translation>Operasi lengkap dengan sukses.</translation>
+        <translation>A operação terminou com sucesso.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>Now you need to format your device.</source>
-        <translation>Sekarang kamu perlu memformat perangkatmu.</translation>
+        <translation>Agora você precisa formatar seu dispositivo.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation>Untuk dapat menyimpan data pada perangkat ini lagi, silakan gunakan tombol &lt;b&gt;Clear&lt;/b&gt;.</translation>
+        <translation>Para poder armazenar dados nesse dispositivo novamente, use o botão &lt;b&gt;Limpar&lt;/b&gt;. </translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation>Untuk memeriksa integritas pada USB gunakan tombol &lt;b&gt;Verifikasi&lt;/b&gt;.</translation>
+        <translation>Para checar a integridade do dispositivo USB use o botão &lt;b&gt;Verificar&lt;/b&gt; .</translation>
     </message>
 </context>
 <context>
@@ -79,22 +79,22 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>&amp;USB Device:</source>
-        <translation>&amp;Perangkat USB:</translation>
+        <translation>&amp;Disco USB:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="124"/>
         <source>Image:</source>
-        <translation>Citra:</translation>
+        <translation>Imagem:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="141"/>
         <source>Open image file</source>
-        <translation>Buka file citra</translation>
+        <translation>Abrir arquivo de imagem</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="155"/>
         <source>Refresh the list</source>
-        <translation>Segarkan daftar</translation>
+        <translation>Atualizar a lista</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="192"/>
@@ -104,32 +104,32 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>Delete partitions and make all space available for storing data</source>
-        <translation>Hapus partisi dan buat semua luang yang tersedia untuk menyimpan data</translation>
+        <translation>Exclua partições e disponibilize todo o espaço para armazenar dados</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="233"/>
         <source>Clea&amp;r</source>
-        <translation>Bersihk&amp;an</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../maindialog.ui" line="255"/>
         <source>&amp;Write</source>
-        <translation>&amp;Tulis</translation>
+        <translation>&amp;Gravar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Batal</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation>&amp;Verifikasi</translation>
+        <translation>&amp;Verificar</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
-        <translation>Gagal membuka file citra:</translation>
+        <translation>Falha ao abrir o arquivo de imagem:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="110"/>
@@ -142,27 +142,27 @@ Gugur.</translation>
         <location filename="../maindialog.cpp" line="189"/>
         <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
-        <translation>Penulisan sedang dalam progres, menggugurkannya?</translation>
+        <translation>Gravação em progresso, abortar ?</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
-        <translation>Citra Disk</translation>
+        <translation>Imagens de Disco</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
-        <translation>Semua File</translation>
+        <translation>Todos os arquivos</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
-        <translation>Citra lebih besar daripada perangkat yang kamu pilih!</translation>
+        <translation>A imagem é maior que o dispositivo selecionado!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
-        <translation>Ukuran citra:</translation>
+        <translation>Tamanho de imagem:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
@@ -173,22 +173,22 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
-        <translation>Ukuran disk:</translation>
+        <translation>Tamanho do disco:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
-        <translation>Peringatan!</translation>
+        <translation>Atenção!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
-        <translation>Semua data yang ada pada perangkat yang dipilih akan lenyap!</translation>
+        <translation>Todos os dados existentes no dispositivo selecionado serão perdidos!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
-        <translation>Apakah kamu yakin ingin memproses?</translation>
+        <translation>Tem certeza que deseja continuar?</translation>
     </message>
 </context>
 <context>
@@ -196,7 +196,7 @@ Gugur.</translation>
     <message>
         <location filename="../physicaldevice.cpp" line="37"/>
         <source>Could not acquire lock:</source>
-        <translation>Tidak bisa mendapatkan kunci:</translation>
+        <translation>Não foi possível obter a trava:</translation>
     </message>
 </context>
 <context>
@@ -204,69 +204,69 @@ Gugur.</translation>
     <message>
         <location filename="../common.cpp" line="35"/>
         <source>Error code:</source>
-        <translation>Kode galat:</translation>
+        <translation>Codigo de erro:</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Error!</source>
-        <translation>Galat!</translation>
+        <translation>Erro!</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
         <source>No appropriate su-application found!</source>
-        <translation>Tidak menemukan aplikasi yang tepat!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="151"/>
         <location filename="../platform_lin.cpp" line="183"/>
         <source>Please, restart the program with root privileges.</source>
-        <translation>Silakan, mulai ulang program dengan hak root.</translation>
+        <translation>Por favor, reinicie o programa como root.</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Failed to restart with root privileges! (Error code: %1)</source>
-        <translation>Gagal memulai ulang program dengan hak root! (Kode galat: %1)</translation>
+        <translation>Falha ao reiniciar com privilégios de super usuário! (codigo erro: %1)</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="41"/>
         <source>Memory allocation for %1 failed.</source>
-        <translation>Alokasi memori untuk %1 gagal.</translation>
+        <translation>Alocação de memoria para %1 falhou.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="89"/>
         <source>CoCreateInstance(WbemAdministrativeLocator) failed.</source>
-        <translation>CoCreateInstance(WbemAdministrativeLocator) gagal.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="90"/>
         <source>ConnectServer failed.</source>
-        <translation>ConnectServer gagal.</translation>
+        <translation>ConnectServer Falhou.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="91"/>
         <source>Failed to query USB flash devices.</source>
-        <translation>Gagal meng-query perangkat USB flash.</translation>
+        <translation>Falha ao listar dispositivos USB.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="155"/>
         <source>Failed to query list of partitions.</source>
-        <translation>Gagal meng-query daftar partisi.</translation>
+        <translation>Falha ao listar lista de partições</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="187"/>
         <source>Failed to query list of logical disks.</source>
-        <translation>Gagal meng-query daftar disk logikal.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../usbdevice.h" line="15"/>
         <source>Unknown Device</source>
-        <translation>Perangkat Tak Diketahui</translation>
+        <translation>Dispositivo desconhecido</translation>
     </message>
     <message>
         <location filename="../usbdevice.h" line="24"/>
         <source>&lt;unmounted&gt;</source>
-        <translation>&lt;tak dikaitkan&gt;</translation>
+        <translation>&lt;unmounted&gt;</translation>
     </message>
     <message>
         <location filename="../usbdevice.h" line="24"/>
