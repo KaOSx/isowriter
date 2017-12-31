@@ -130,6 +130,7 @@ TRANSLATIONS = lang/isowriter-en.ts \
             lang/isowriter-fr.ts \
             lang/isowriter-hr_HR.ts \
             lang/isowriter-id_ID.ts \
+            lang/isowriter-it.ts \
             lang/isowriter-nl_NL.ts \
             lang/isowriter-pt_BR.ts \
             lang/isowriter-pt_PT.ts \
