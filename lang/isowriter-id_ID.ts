@@ -14,7 +14,7 @@
     <message>
         <location filename="../imagewriter.cpp" line="57"/>
         <source>Failed to open the image file:</source>
-        <translation>Gagal membuka file citra:</translation>
+        <translation>Gagal membuka file image:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="80"/>
@@ -51,7 +51,7 @@ Gugur.</translation>
     <message>
         <location filename="../imagewriter.cpp" line="169"/>
         <source>Failed to read the image file:</source>
-        <translation>Gagal membaca file citra:</translation>
+        <translation>Gagal membaca file image:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="191"/>
@@ -84,12 +84,12 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.ui" line="124"/>
         <source>Image:</source>
-        <translation>Citra:</translation>
+        <translation>Image:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="141"/>
         <source>Open image file</source>
-        <translation>Buka file citra</translation>
+        <translation>Buka file image</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="155"/>
@@ -129,7 +129,7 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
-        <translation>Gagal membuka file citra:</translation>
+        <translation>Gagal membuka file image:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="110"/>
@@ -147,7 +147,7 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
-        <translation>Citra Disk</translation>
+        <translation>Image Disk</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
@@ -157,12 +157,12 @@ Gugur.</translation>
     <message>
         <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
-        <translation>Citra lebih besar daripada perangkat yang kamu pilih!</translation>
+        <translation>Image lebih besar daripada perangkat yang kamu pilih!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
-        <translation>Ukuran citra:</translation>
+        <translation>Ukuran image:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>

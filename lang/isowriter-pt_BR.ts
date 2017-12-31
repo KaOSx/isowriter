@@ -109,7 +109,7 @@ Abortando.</translation>
     <message>
         <location filename="../maindialog.ui" line="233"/>
         <source>Clea&amp;r</source>
-        <translation type="unfinished"/>
+        <translation>Limpa&amp;r</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="255"/>
