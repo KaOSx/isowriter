@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 12:19-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>, 2018\n"
+"Language-Team: Hindi (India) (https://www.transifex.com/kaos/teams/2071/hi_IN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: checkisowriter:33
+msgid ""
+"Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
+"this can take a few minutes"
+msgstr ""
+"डाउनलोड की गई ISO की तुलना में <br>USB की अखंडता की पुष्टि की जा रही है, "
+"इसमें कुछ मिनट लग सकते हैं।"
+
+#: checkisowriter:41
+msgid "No Flash USB detected."
+msgstr "कोई फ़्लैश USB नहीं मिली।"
+
+#: checkisowriter:58
+msgid ""
+"ISO files do not match, do not use this USB for install media. <br><br> Or "
+"make sure only one USB flash device is connected and run Verify again."
+msgstr ""
+"ISO फाइलें मेल नहीं खातीं, इंस्टॉल मीडिया के लिए इस USB का उपयोग न "
+"करें।<br><br>या फिर सुनिश्चित करें कि केवल एक USB फ़्लैश डिवाइस ही कनेक्ट है "
+"व फिर से जाँच करें।"
