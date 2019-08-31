@@ -215,7 +215,7 @@ Abortando.</translation>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
         <source>No appropriate su-application found!</source>
-        <translation type="unfinished"/>
+        <translation>Nenhuma aplicação apropriada foi encontrada!</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="151"/>
@@ -236,7 +236,7 @@ Abortando.</translation>
     <message>
         <location filename="../platform_win.cpp" line="89"/>
         <source>CoCreateInstance(WbemAdministrativeLocator) failed.</source>
-        <translation type="unfinished"/>
+        <translation>CoCreateInstance (WbemAdministrativeLocator) falhou.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="90"/>
@@ -256,7 +256,7 @@ Abortando.</translation>
     <message>
         <location filename="../platform_win.cpp" line="187"/>
         <source>Failed to query list of logical disks.</source>
-        <translation type="unfinished"/>
+        <translation>Falha ao consultar lista de discos lógicos.</translation>
     </message>
     <message>
         <location filename="../usbdevice.h" line="15"/>

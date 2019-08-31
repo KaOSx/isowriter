@@ -71,7 +71,7 @@ Aborting.</source>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation>USB की अखंडता जाँचने के लिए कृपया&lt;b&gt;जाँचें&lt;/b&gt;बटन का इस्तेमाल करें।</translation>
+        <translation>यूएसबी की अखंडता जाँचने के लिए कृपया&lt;b&gt;जाँचें&lt;/b&gt;बटन का इस्तेमाल करें।</translation>
     </message>
 </context>
 <context>
@@ -79,7 +79,7 @@ Aborting.</source>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>&amp;USB Device:</source>
-        <translation>&amp;USB डिवाइस :</translation>
+        <translation>यूएसबी डिवाइस (&amp;U) :</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="124"/>
@@ -104,27 +104,27 @@ Aborting.</source>
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>Delete partitions and make all space available for storing data</source>
-        <translation>विभाजनों को हटा कर, सारा स्पेस डाटा स्टोर करने के लिए उपयोग करें</translation>
+        <translation>विभाजनों को हटा कर, सारा स्पेस डाटा संचित करने हेतु उपयोग करें</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="233"/>
         <source>Clea&amp;r</source>
-        <translation>&amp;हटाएँ</translation>
+        <translation>हटाएँ (&amp;r)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="255"/>
         <source>&amp;Write</source>
-        <translation>राइ&amp;ट करें</translation>
+        <translation>राइट करें (&amp;W)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;निरस्त करें</translation>
+        <translation>रद्द करें (&amp;C)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation>जाँच &amp;करें</translation>
+        <translation>जाँचें (&amp;V)</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
@@ -157,12 +157,12 @@ Aborting.</source>
     <message>
         <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
-        <translation>छवि आपके चयनित डिवाइस से बड़ी है!</translation>
+        <translation>फ़ाइल आपके चयनित डिवाइस से बड़ी है !</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
-        <translation>छवि का साइज़ :</translation>
+        <translation>फ़ाइल का आकार :</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
@@ -173,7 +173,7 @@ Aborting.</source>
     <message>
         <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
-        <translation>डिस्क का साइज़ :</translation>
+        <translation>डिस्क का आकार :</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
@@ -210,7 +210,7 @@ Aborting.</source>
         <location filename="../platform_lin.cpp" line="150"/>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Error!</source>
-        <translation>त्रुटि!</translation>
+        <translation>त्रुटि !</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
@@ -246,7 +246,7 @@ Aborting.</source>
     <message>
         <location filename="../platform_win.cpp" line="91"/>
         <source>Failed to query USB flash devices.</source>
-        <translation>USB फ़्लैश डिवाइस जानने में विफल।</translation>
+        <translation>यूएसबी फ़्लैश डिवाइस जानने में विफल।</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="155"/>
