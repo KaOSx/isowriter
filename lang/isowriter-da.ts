@@ -1,77 +1,77 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.1">
 <context>
     <name>ImageWriter</name>
     <message>
         <location filename="../imagewriter.cpp" line="39"/>
         <source>Failed to allocate memory for buffer:</source>
-        <translation>Allocazione della memoria al buffer fallita:</translation>
+        <translation>Kunne ikke allokere hukommelse til buffer:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="43"/>
         <source>Failed to allocate memory for buffer.</source>
-        <translation>Allocazione della memoria al buffer fallita.</translation>
+        <translation>Kunne ikke allokere hukommelse til buffer.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="57"/>
         <source>Failed to open the image file:</source>
-        <translation>Apertura del file immagine fallita:</translation>
+        <translation>Aftryksfilen kunne ikke åbnes:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="80"/>
         <source>Failed to open the drive</source>
-        <translation>Apertura del drive fallita</translation>
+        <translation>Drevet kunne ikke åbnes</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="87"/>
         <source>Failed to unmount the drive</source>
-        <translation>Smontaggio del drive fallito</translation>
+        <translation>Kunne ikke afmontere drevet</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="104"/>
         <source>Failed to unmount the volume</source>
-        <translation>Smontaggio del volume fallita</translation>
+        <translation>Kunne ikke afmontere volume</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="115"/>
         <source>Failed to open the target device:</source>
-        <translation>apertura della destinazione fallita:</translation>
+        <translation>Måleenheden kunne ikke åbnes:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="135"/>
         <source>Failed to write to the device:</source>
-        <translation>Scrittura sul device fallita:</translation>
+        <translation>Kunne ikke skrive til enheden:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="137"/>
         <source>The last block was not fully written (%1 of %2 bytes)!
 Aborting.</source>
-        <translation>L&apos;ultimo blocco non è stato scritto completamente (%1 of %2 bytes)!
-Interrotto.</translation>
+        <translation>Den sidste blok blev ikke fuldt ud skrevet (%1 af %2 bytes)!
+Afbryder.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="169"/>
         <source>Failed to read the image file:</source>
-        <translation>Lettura del file immagine fallita:</translation>
+        <translation>Aftryksfilen kunne ikke læses:</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="191"/>
         <source>The operation completed successfully.</source>
-        <translation>L&apos;operazione è stata completata con successo.</translation>
+        <translation>Operationen blev gennemført med succes.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>Now you need to format your device.</source>
-        <translation>E&apos; necessario formattare il tuo device.</translation>
+        <translation>Nu skal du formatere din enhed.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="193"/>
         <source>To be able to store data on this device again, please use the &lt;b&gt;Clear&lt;/b&gt; button.</source>
-        <translation>Per riuscire a scrivere nuovamente i dati su questo device, usa il pulsante &lt;b&gt;Pulisci&lt;/b&gt;, per favore.</translation>
+        <translation>For at kunne gemme data på denne enhed igen, skal du bruge &lt;b&gt; Ryd&lt;/b&gt; knappen.</translation>
     </message>
     <message>
         <location filename="../imagewriter.cpp" line="195"/>
         <source>To check the integrity of the USB use the &lt;b&gt;Verify&lt;/b&gt; button.</source>
-        <translation>Per controllare l&apos;integrità del disco USB usa il pulsante &lt;b&gt;Verifica&lt;/b&gt;.</translation>
+        <translation>For at kontrollere USB  integriteten, skal du bruge &lt;b&gt;Verificere&lt;/b&gt; knappen.</translation>
     </message>
 </context>
 <context>
@@ -79,22 +79,22 @@ Interrotto.</translation>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>&amp;USB Device:</source>
-        <translation>&amp;USB Device:</translation>
+        <translation>&amp;USB enhed:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="124"/>
         <source>Image:</source>
-        <translation>Immagine:</translation>
+        <translation>Aftryk:</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="141"/>
         <source>Open image file</source>
-        <translation>Apri file immagine</translation>
+        <translation>Åbn aftryksbillede</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="155"/>
         <source>Refresh the list</source>
-        <translation>Aggiorna la lista</translation>
+        <translation>Opdater listen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="192"/>
@@ -104,32 +104,32 @@ Interrotto.</translation>
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>Delete partitions and make all space available for storing data</source>
-        <translation>Cancella le partizioni e rendi disponibile lo spazio per salvare i dati.</translation>
+        <translation>Slet partitioner, og gør al plads tilgængelig til lagring af data</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="233"/>
         <source>Clea&amp;r</source>
-        <translation>Pulisci</translation>
+        <translation>Ry&amp;d</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="255"/>
         <source>&amp;Write</source>
-        <translation>&amp;Scrivi</translation>
+        <translation>&amp;Skriv</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="277"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancella</translation>
+        <translation>&amp;Annullere</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="296"/>
         <source>&amp;Verify</source>
-        <translation>&amp;Verifica</translation>
+        <translation>&amp;Verificer</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="89"/>
         <source>Failed to open the image file:</source>
-        <translation>Apertura del file immagine fallita:</translation>
+        <translation>Aftryksfilen kunne ikke åbnes:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="110"/>
@@ -142,27 +142,27 @@ Interrotto.</translation>
         <location filename="../maindialog.cpp" line="189"/>
         <location filename="../maindialog.cpp" line="200"/>
         <source>Writing is in progress, abort it?</source>
-        <translation>Scrittura in atto, vuoi interrompere?</translation>
+        <translation>Skrivning er i gang, vil du afbryde det?</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>Disk Images</source>
-        <translation>Immagini Disco</translation>
+        <translation>Diskaftryket</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>All Files</source>
-        <translation>Tutti i file</translation>
+        <translation>Alle filer</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="284"/>
         <source>The image is larger than your selected device!</source>
-        <translation>L&apos;immagine è più grossa del device che hai selezionato! </translation>
+        <translation>Diskaftrykket er større end din valgte enhed!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
         <source>Image size:</source>
-        <translation>Dimensione immagine:</translation>
+        <translation>Aftryks størrelse:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="285"/>
@@ -173,22 +173,22 @@ Interrotto.</translation>
     <message>
         <location filename="../maindialog.cpp" line="286"/>
         <source>Disk size:</source>
-        <translation>Dimensione disco:</translation>
+        <translation>Diskstørrelse:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
         <source>Warning!</source>
-        <translation>Attenzione!</translation>
+        <translation>Advarsel!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="294"/>
         <source>All existing data on the selected device will be lost!</source>
-        <translation>Tutti i dati sul device selezinato saranno perduti!</translation>
+        <translation>Alle eksisterende data på den valgte enhed går tabt!</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="295"/>
         <source>Are you sure you wish to proceed?</source>
-        <translation>Sei sicuro di voler continuare?</translation>
+        <translation>Er du sikker på, at du ønsker at fortsætte?</translation>
     </message>
 </context>
 <context>
@@ -196,7 +196,7 @@ Interrotto.</translation>
     <message>
         <location filename="../physicaldevice.cpp" line="37"/>
         <source>Could not acquire lock:</source>
-        <translation>Non posso acquisire priorità:</translation>
+        <translation>Låsen kunne ikke nås:</translation>
     </message>
 </context>
 <context>
@@ -204,64 +204,64 @@ Interrotto.</translation>
     <message>
         <location filename="../common.cpp" line="35"/>
         <source>Error code:</source>
-        <translation>Codice errore:</translation>
+        <translation>Fejlkode:</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Error!</source>
-        <translation>Errore!</translation>
+        <translation>Fejl!</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="150"/>
         <source>No appropriate su-application found!</source>
-        <translation>Nessuna applicazione trovata per usare SU!</translation>
+        <translation>Intet passende su-program fundet!</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="151"/>
         <location filename="../platform_lin.cpp" line="183"/>
         <source>Please, restart the program with root privileges.</source>
-        <translation>Fai ripartire il programma con i privilegi di root, per favore.</translation>
+        <translation>Genstart programmet med root rettigheder.</translation>
     </message>
     <message>
         <location filename="../platform_lin.cpp" line="182"/>
         <source>Failed to restart with root privileges! (Error code: %1)</source>
-        <translation>Riavvio con i provilegi di root fallito! (Codice errore: %1)</translation>
+        <translation>Kunne ikke genstarte med root rettigheder! (Fejlkode: %1)</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="41"/>
         <source>Memory allocation for %1 failed.</source>
-        <translation>Allocazione della memoria per %1 fallita.</translation>
+        <translation>Hukommelsestildeling for %1 mislykkedes.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="89"/>
         <source>CoCreateInstance(WbemAdministrativeLocator) failed.</source>
-        <translation>CoCreateInstance(WbemAdministrativeLocator) fallita.</translation>
+        <translation>CoCreateInstance (WbemAdministrativeLocator) mislykkedes.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="90"/>
         <source>ConnectServer failed.</source>
-        <translation>Connessione al server fallita.</translation>
+        <translation>Tilslut server mislykkedes.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="91"/>
         <source>Failed to query USB flash devices.</source>
-        <translation>Interrogazione al device USB fallita.</translation>
+        <translation>Der kunne ikke søges efter USB flashenheder.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="155"/>
         <source>Failed to query list of partitions.</source>
-        <translation>Interrogazione della lista delle partizioni fallita.</translation>
+        <translation>Listen over partitioner kunne ikke forespørges.</translation>
     </message>
     <message>
         <location filename="../platform_win.cpp" line="187"/>
         <source>Failed to query list of logical disks.</source>
-        <translation>Interrogazione della lista dei dischi fallita.</translation>
+        <translation>Kunne ikke forespørge listen over logiske diske.</translation>
     </message>
     <message>
         <location filename="../usbdevice.h" line="15"/>
         <source>Unknown Device</source>
-        <translation>Device sconosciuto</translation>
+        <translation>Ukendt enhed</translation>
     </message>
     <message>
         <location filename="../usbdevice.h" line="24"/>

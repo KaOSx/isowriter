@@ -124,6 +124,7 @@ TRANSLATIONS = lang/isowriter-en.ts \
             lang/isowriter-ast.ts \
             lang/isowriter-ca.ts \
             lang/isowriter-cs.ts \
+            lang/isowriter-da.ts \
             lang/isowriter-de.ts \
             lang/isowriter-es.ts \
             lang/isowriter-es_AR.ts \
