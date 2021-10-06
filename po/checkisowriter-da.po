@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Carl Andersen <carl@flying-cloud.dk>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 12:19-0500\n"
+"PO-Revision-Date: 2017-01-24 08:33+0000\n"
+"Last-Translator: Carl Andersen <carl@flying-cloud.dk>, 2021\n"
+"Language-Team: Danish (https://www.transifex.com/kaos/teams/2071/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: checkisowriter:33
+msgid ""
+"Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
+"this can take a few minutes"
+msgstr ""
+"Kontrol af USB  integriteten i forhold til<br> den downloadede ISO, det kan "
+"tage nogle minutter"
+
+#: checkisowriter:41
+msgid "No Flash USB detected."
+msgstr "Der blev ikke fundet nogen USB flash."
+
+#: checkisowriter:58
+msgid ""
+"ISO files do not match, do not use this USB for install media. <br><br> Or "
+"make sure only one USB flash device is connected and run Verify again."
+msgstr ""
+"ISO  filer matcher ikke, brug ikke denne USB til at installere med. <br><br>"
+" Eller sørg for, at der kun er tilsluttet en USB  flashenhed, og kør "
+"Verificer igen."
