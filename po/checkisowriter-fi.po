@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Muha Aliss <muhaaliss@gmail.com>, 2017
-# Kozmotronik, 2022
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -14,30 +13,31 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-25 12:19-0500\n"
 "PO-Revision-Date: 2017-01-24 08:33+0000\n"
-"Last-Translator: Kozmotronik, 2022\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/kaos/teams/2071/tr_TR/)\n"
+"Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>, 2023\n"
+"Language-Team: Finnish (https://www.transifex.com/kaos/teams/2071/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: checkisowriter:33
 msgid ""
 "Verifying the integrity of the USB in comparison to<br> the downloaded ISO, "
 "this can take a few minutes"
 msgstr ""
-"USB bütünlüğü indirilen ISO ile karşılaştırılarak doğrulanıyor,\n"
-"bu birkaç dakika sürebilir"
+"USB:n eheyden tarkistaminen verrattuna<br> ladattuun ISO-tiedostoon, tämä "
+"voi kestää muutaman minuutin"
 
 #: checkisowriter:41
 msgid "No Flash USB detected."
-msgstr "USB Bellek tespit edilmedi."
+msgstr "USB-muistitikkua ei havaittu."
 
 #: checkisowriter:58
 msgid ""
 "ISO files do not match, do not use this USB for install media. <br><br> Or "
 "make sure only one USB flash device is connected and run Verify again."
 msgstr ""
-"ISO dosyaları eşleşmiyor, bu USB'yi kurulum ortamı olarak kullanmayınız.\n"
-"Veya yalnızca bir USB flaş aygıtının bağlı olduğundan emin olup Doğrula'yı yeniden çalıştırınız."
+"ISO-tiedostot eivät täsmää, älä käytä tätä USB-muistia asennusmediana. "
+"<br><br> Varmista, että vain yksi USB-muistitikku on kytketty ja suorita "
+"tarkistus uudelleen."
